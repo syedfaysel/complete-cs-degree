@@ -1,6 +1,16 @@
 {
+
+  "get-started": {
+    "title": "Get Started"
+  },
+  "cse110":{
+    "title": "Programming Language I"
+  },
   "cse111": {
-    "title": "CSE111 Object Oriented Programming"
+    "title": "OOP"
+  },
+  "cse230": {
+    "title": "Discrete mathematics"
   },
   "cse220": {
     "title": "Data Structures"
@@ -8,7 +18,33 @@
   "cse221": {
     "title": "Algorithms"
   },
+  "cse330": {
+    "title": "Numerical Methods"
+  },
+  "cse331": {
+    "title": "Automata (TOC)"
+  },
+  "cse320": {
+    "title": "Data Communication"
+  },
+  "cse321": {
+    "title": "Operating System"
+  },
+  "cse420": {
+    "title": "Compiler Design"
+  },
+  "cse421": {
+    "title": "Compiler Design"
+  },
+  "cse422": {
+    "title": "Artificial Intelligence"
+  },
+
   "machine-learning": {
     "title": "Machine Learning"
+  },
+  "cse461": {
+    "title": "Robotics"
   }
+
 }
