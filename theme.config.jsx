@@ -15,6 +15,7 @@ export default {
   project: {
     link: "https://github.com/syedfaysel/complete-cs-degree"
   }, 
-  docsRepositoryBase: 'https://github.com/syedfaysel/complete-cs-degree/tree/main/docs'
+  docsRepositoryBase: 'https://github.com/syedfaysel/complete-cs-degree/tree/main', 
+
   // ... other theme options
 };
