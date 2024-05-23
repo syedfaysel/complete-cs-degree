@@ -1,0 +1,4 @@
+## Course outline
+
+
+lore impsum

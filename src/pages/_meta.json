@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "title": "General",
+    "type": "page"
+  },
+  "courses": {
+    "title": "Courses",
+    "type": "page"
+  }
+}
