@@ -1,0 +1,14 @@
+{
+  "cse111": {
+    "title": "CSE111 Object Oriented Programming"
+  },
+  "cse220": {
+    "title": "Data Structures"
+  },
+  "cse221": {
+    "title": "Algorithms"
+  },
+  "machine-learning": {
+    "title": "Machine Learning"
+  }
+}
