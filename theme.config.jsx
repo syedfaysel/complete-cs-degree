@@ -57,22 +57,21 @@ export default {
       },
       datePublished: "2023-07-31",
       dateModified: gitTimestampString,
-      description: "An opensource project to complete CS degree with tutorials, articles, resources and many more",
+      description:
+        "An opensource project to complete CS degree with tutorials, articles, resources and many more",
     };
 
     return (
       <>
-        <link
-          rel="icon"
-          type="image/png"
-          href="/images/xcall-favicon.ico"
-          hrefLang="en"
-        />
+        <link rel="icon" href="/favicon.png" type="image/png"/>
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontMatter.title || "CS Degree"} />
         <meta
           property="og:description"
-          content={frontMatter.description || "An opensource project to complete CS degree with tutorials, articles, resources and many more"}
+          content={
+            frontMatter.description ||
+            "An opensource project to complete CS degree with tutorials, articles, resources and many more"
+          }
         />
         <meta name="msapplication-TileColor" content="#fff" />
         <meta name="theme-color" content="#fff" />
@@ -103,7 +102,7 @@ export default {
     const { title, frontMatter } = useConfig();
     if (asPath !== "/") {
       return {
-        titleTemplate: `%s – ${asPath}`,
+        titleTemplate: `%s`,
         description: frontMatter.description,
         openGraph: {
           description: frontMatter.description,
@@ -197,7 +196,7 @@ export default {
     ),
   },
   // faviconGlyph: '🌐',
-  faviconGlyph: "🎓",
+  // faviconGlyph: "🎓",
 
   // ... other theme options
 };
