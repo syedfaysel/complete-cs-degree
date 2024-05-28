@@ -28,7 +28,10 @@
     "title": "Data Communication"
   },
   "cse321": {
-    "title": "Operating System"
+    "title": "Operating System",
+    "theme": {
+      "typesetting": "article"
+    }
   },
   "cse420": {
     "title": "Compiler Design"
